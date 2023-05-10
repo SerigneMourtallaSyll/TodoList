@@ -93,6 +93,7 @@ danger.forEach((element) => {
 
     let div = e.target.parentNode.parentNode.parentNode.parentNode;
     div.style.backgroundColor = 'red';
+    div.style.color = 'white';
   })
 }
 );
@@ -104,6 +105,8 @@ orange.forEach((element) => {
 
     let div = e.target.parentNode.parentNode.parentNode.parentNode;
     div.style.backgroundColor = 'orange';
+    div.style.color = 'white';
+
   })
 }
 );
@@ -115,6 +118,8 @@ green.forEach((element) => {
 
     let div = e.target.parentNode.parentNode.parentNode.parentNode;
     div.style.backgroundColor = 'green';
+    div.style.color = 'white';
+
   })
 }
 );
