@@ -61,20 +61,20 @@ function getTasks() {
         <div class="card-body">
         <div class="row">
           <div class="col-sm-3 text-left">
-            <p>${title}</p>
+            <h4>${title}</h4>
           </div>
           <div class="col-sm-4 text-left">
-            <p>${description}</p>
+            <h4>${description}</h4>
           </div>
           <div class="col-sm-5 d-flex bgc">
-            <div class="col-sm-4">
-              <a href="#"  class="btn todoD btn-danger">ToDo</a>
+            <div class="col-sm-4 ">
+              <a href="#"  class="btn todoD btn-danger px-4">ToDo</a>
             </div>
             <div class="col-sm-4">
-              <a href="#"  class="btn btn-warning todoDg" style="background-color: orange;">Doing</a>
+              <a href="#"  class="btn btn-warning todoDg px-4" style="background-color: orange;">Doing</a>
             </div>
             <div class="col-sm-4">
-              <a href="#"  class="btn btn-success todoDone">Done</a>
+              <a href="#"  class="btn btn-success todoDone px-4">Done</a>
             </div>
           </div>
         </div>  
@@ -106,7 +106,6 @@ orange.forEach((element) => {
     let div = e.target.parentNode.parentNode.parentNode.parentNode;
     div.style.backgroundColor = 'orange';
     div.style.color = 'white';
-
   })
 }
 );
@@ -119,7 +118,6 @@ green.forEach((element) => {
     let div = e.target.parentNode.parentNode.parentNode.parentNode;
     div.style.backgroundColor = 'green';
     div.style.color = 'white';
-
   })
 }
 );
